@@ -13,7 +13,7 @@
 
 ## Prerequisites :-
 
-1. **Java 11 or above** - Ensure you have Java installed on your machine.
+1. **Java 8 or above** - Ensure you have Java installed on your machine.
 
 2. **Informatica Cloud REST API Access** - Make sure you have the necessary permissions and credentials for using the Informatica Cloud REST API.
 
