@@ -50,21 +50,29 @@ java CrossProdAssetExportUtility
     a. Non-Production Organization Login:
     
     i.  Username
+
     ii.  Password
+
     iii.  Region URL (e.g., dm-us.informaticacloud.com)
     
     b. Production Organization Login:
     
     i. Username
+
     ii. Password
+
     iii. Region URL (e.g., dm-us.informaticacloud.com)
 
 2. **The tool will proceed with the following steps :-**
 
     a. Login to the non-production and production orgs using the provided credentials.
+
     b. Upload the exported package to the production org.
+
     c. Start the import job using the API.
+
     d. Monitor the import job status until it reaches a final state (SUCCESSFUL or FAILED).
+    
     e. Log out from both the non-production and production environments.
 
 ## Error Handling :-
