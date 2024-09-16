@@ -31,10 +31,16 @@ git clone https://github.com/PRABHU-OFFICIAL-II/IICSAssetExportUtility.git
 cd IICSAssetExportUtility
 ```
 
-3. **Run the tool** :- 
+3. **Create the class file** :- 
 
 ```bash
-java CrossProdAssetExportUtility.java
+javac CrossProdAssetExportUtility.java
+```
+
+4. **Execute the class file** :- 
+
+```bash
+java CrossProdAssetExportUtility
 ```
 
 ## Usage :-
