@@ -48,14 +48,16 @@ java CrossProdAssetExportUtility
 1. **When you run the tool, it will interactively request the following :-**
     
     a. Non-Production Organization Login:
-        i. Username
-        ii. Password
-        iii. Region URL (e.g., dm-us.informaticacloud.com)
+    
+    i. Username
+    ii. Password
+    iii. Region URL (e.g., dm-us.informaticacloud.com)
     
     b. Production Organization Login:
-        i. Username
-        ii. Password
-        iii. Region URL (e.g., dm-us.informaticacloud.com)
+    
+    i. Username
+    ii. Password
+    iii. Region URL (e.g., dm-us.informaticacloud.com)
 
 2. **The tool will proceed with the following steps :-**
 
@@ -68,6 +70,7 @@ java CrossProdAssetExportUtility
 ## Error Handling :-
 
 1. If the upload, import start, or status check fails, the tool will display the corresponding HTTP error code and response body.
+
 2. The tool handles common exceptions like IOException and InterruptedException and provides error messages with stack traces for debugging purposes.
 
 **Currently working on improving the dunctionality t allow for multiple Assest Export and import.**
