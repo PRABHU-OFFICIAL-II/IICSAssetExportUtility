@@ -49,7 +49,7 @@ java CrossProdAssetExportUtility
     
     a. Non-Production Organization Login:
     
-    i. Username
+    i.  Username
     ii. Password
     iii. Region URL (e.g., dm-us.informaticacloud.com)
     
