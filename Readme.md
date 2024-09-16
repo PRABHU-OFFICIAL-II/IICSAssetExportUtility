@@ -1,6 +1,6 @@
 # CrossProdAssetExportUtility
 
-**CrossProdAssetExportUtility is a Java-based tool that helps automate the process of exporting, uploading, and importing asset packages between Informatica Cloud non-production and production environments. The tool interacts with the Informatica Cloud REST API to manage sessions, upload packages, monitor import status, and log out of both environments upon completion.
+**CrossProdAssetExportUtility is a Java-based tool that helps automate the process of exporting, uploading, and importing asset packages between Informatica Cloud non-production and production environments. The tool interacts with the Informatica Cloud REST API to manage sessions, upload packages, monitor import status, and log out of both environments upon completion.**
 
 ## Features :-
 
@@ -25,17 +25,21 @@
 git clone https://github.com/PRABHU-OFFICIAL-II/IICSAssetExportUtility.git
 ```
 
-2. Navigate to the project directory :- 
+2. **Navigate to the project directory** :- 
 
+```bash
 cd IICSAssetExportUtility
+```
 
-3. Run the tool :- 
+3. **Run the tool** :- 
 
+```bash
 java CrossProdAssetExportUtility.java
+```
 
-Usage :-
+## Usage :-
 
-1. When you run the tool, it will interactively request the following:
+1. **When you run the tool, it will interactively request the following :-**
     
     a. Non-Production Organization Login:
         i. Username
@@ -47,7 +51,7 @@ Usage :-
         ii. Password
         iii. Region URL (e.g., dm-us.informaticacloud.com)
 
-2. The tool will proceed with the following steps:
+2. **The tool will proceed with the following steps :-**
 
     a. Login to the non-production and production orgs using the provided credentials.
     b. Upload the exported package to the production org.
@@ -55,10 +59,10 @@ Usage :-
     d. Monitor the import job status until it reaches a final state (SUCCESSFUL or FAILED).
     e. Log out from both the non-production and production environments.
 
-Error Handling :-
+## Error Handling :-
 
 1. If the upload, import start, or status check fails, the tool will display the corresponding HTTP error code and response body.
 2. The tool handles common exceptions like IOException and InterruptedException and provides error messages with stack traces for debugging purposes.
 
-Currently working on improving the dunctionality t allow for multiple Assest Export and import
-Open to any contributions from your side.
+**Currently working on improving the dunctionality t allow for multiple Assest Export and import.**
+**Open to any contributions from your side.**
